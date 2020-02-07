@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Корзина покупок </title>
+   <link rel="stylesheet" href="style.css">
+  	<meta charset="utf-8">
+      <script src="jQuery.js"></script>
+    </head>
+  <body>
+   <h1>Корзина</h1>
+    <div id="item_container">
+    </div>
+    <div id="cart_container">
+          <div id="cart_toolbar">
+              <div id="cart_items"></div>
+          </div>
+          <div id="navigate">
+              <div id="nav_left">
+                  <a href="" id="btn_clear">Очистить корзину</a>
+              </div>
+              <div id="nav_right">
+                  <span class="sptext">
+                      <label>Кол-во товаров: </label><label class="count" id="citem">0</label>
+                  </span>
+                  <span class="sptext">
+                      <label>Бюджет: </label><input type="text" value="100" class="count" id="cprice"> $</input>
+                  </span>
+              </div>
+              <div class="clear"></div>
+          </div>
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>

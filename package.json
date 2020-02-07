@@ -1,0 +1,7 @@
+{
+  "name": "basket",
+  "version": "1.0.0",
+  "repository":"https://github.com/MashaGn/MashaGn.github.io.git"
+  "main": "main.js",
+  "license": "MIT"
+}
